@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYCLOPS GAME STUDIO | Главная</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Анимированный фон -->
+    <div class="animated-bg"></div>
+    
+    <!-- Шапка сайта -->
+    <header class="fade-in">
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="CYCLOPS GAME STUDIO" class="logo pulse">
+                <h1>CYCLOPS <span>GAME STUDIO</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="authors.html">Авторы</a></li>
+                    <li><a href="#games">Моды</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main>
+        <section class="hero slide-in">
+            <div class="container">
+                <h2>Создаем незабываемые игровые модификации</h2>
+                <p>Погрузитесь в уникальные модификации, созданные нашей командой энтузиастов</p>
+                <a href="#games" class="btn pulse">Наши моды</a>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <div class="container">
+                <h2 class="section-title">Наши игры</h2>
+                
+                <div class="games-grid">
+                    <!-- Игра 1 -->
+                    <div class="game-card flip-in">
+                        <div class="game-image">
+                            <img src="game1.png" alt="Cyber Odyssey">
+                        </div>
+                        <div class="game-info">
+                            <h3>FNF Sleeping Cat</h3>
+                            <p>FNF мод про кота из Poppy playtime, где ваша задача будет победить данное существо в реп батле.</p>
+                            <div class="game-features">
+                                <span><i class="fas fa-igloo"></i> Ритм-игра</span>
+                                <span><i class="fas fa-robot"></i> Открытый мир</span>
+                            </div>
+                            <a href="https://store.steampowered.com/app/3399950/Vasha_mat/?l=russian" target="_blank" class="steam-btn">
+                                <i class="fab fa-steam"></i> Доступно в Steam
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Игра 2 -->
+                    <div class="game-card flip-in">
+                        <div class="game-image">
+                            <img src="game2.png" alt="Arctic Survival">
+                        </div>
+                        <div class="game-info">
+                            <h3>FNF Deeper than the stars</h3>
+                            <p>FNF мод про короля морского дна, где ваша задача будет победить данное существо в реп батле.</p>
+                            <div class="game-features">
+                                <span><i class="fas fa-igloo"></i> Ритм-игра</span>
+                                <span><i class="fas fa-snowflake"></i> Raytrassing</span>
+                                <span><i class="fas fa-users"></i> Кооператив</span>
+                            </div>
+                            <a href="https://store.steampowered.com/app/3399950/Vasha_mat/?l=russian" target="_blank" class="steam-btn">
+                                <i class="fab fa-steam"></i> Доступно в Steam
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="CYCLOPS GAME STUDIO" class="logo">
+                    <p>Создаем игры с 2025 года</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="authors.html">Авторы</a></li>
+                        <li><a href="#games">Моды</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://discord.com/"><i class="fab fa-discord"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a href="https://store.steampowered.com/?l=russian"><i class="fab fa-steam"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 CYCLOPS GAME STUDIO. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>
